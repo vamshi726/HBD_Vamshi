@@ -1,8 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Carattere&display=swap');
+
 body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
 	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
 	height: 100vh;
+
 }
 
 @keyframes gradient {
@@ -15,4 +23,16 @@ body {
 	100% {
 		background-position: 0% 50%;
 	}
+  align-items:center;
+}
+
+p{
+  font-family: 'Roboto',sans-serif;
+   font-size: 50PX;
+   font-family: 'Special Elite', cursive;
+}
+
+#hbdvms{
+    font-size: 100PX;
+      font-family: 'Carattere', cursive;
 }
